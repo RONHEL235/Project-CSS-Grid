@@ -1,0 +1,16 @@
+body {
+    display: grid;
+    grid-template-areas: "header header" "main aside " "footer footer";
+    grid-template-columns: 70%;
+    grid-template-rows: 20rem 1fr 30rem;
+    grid-gap: 1rem;
+}
+
+header, main, aside, footer {
+    border: 0.1rem solid black; 
+    padding: 1rem;
+}
+
+#header {
+    
+}
