@@ -1,8 +1,8 @@
 body {
     display: grid;
     grid-template-areas: "header header" "main aside " "footer footer";
-    grid-template-columns: 70% 1fr;
-    grid-template-rows: 10rem 20rem 20rem;
+    grid-template-columns: 80%;
+    grid-template-rows: 6rem 30rem 10rem;
     grid-gap: 1rem;
 }
 
@@ -25,4 +25,17 @@ header, main, aside, footer {
 
 #footer {
     grid-area: footer;
+}
+
+.header-content-straight {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);   
+}
+
+div {
+    padding-top: 1rem;
+}
+
+h1 {
+    padding-bottom: 1rem;
 }
