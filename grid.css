@@ -1,8 +1,8 @@
 body {
     display: grid;
     grid-template-areas: "header header" "main aside " "footer footer";
-    grid-template-columns: 70%;
-    grid-template-rows: 20rem 1fr 30rem;
+    grid-template-columns: 70% 1fr;
+    grid-template-rows: 10rem 20rem 20rem;
     grid-gap: 1rem;
 }
 
@@ -12,5 +12,17 @@ header, main, aside, footer {
 }
 
 #header {
-    
+    grid-area: header;
+}
+
+#main {
+    grid-area: main;
+}
+
+#aside {
+    grid-area: aside;
+}
+
+#footer {
+    grid-area: footer;
 }
